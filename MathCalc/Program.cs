@@ -70,5 +70,6 @@ _long *= 2;
 Console.WriteLine($"_long * 2: {_long}, _long value * 2: {_long.TryGetAsDouble()}");
 
 var onethird = new RationalNumber("1/3");
-Console.WriteLine($"1/3: {onethird * onethird}");
+Console.WriteLine($"1/3: {onethird}");
+Console.WriteLine($"1/3^2: {onethird ^ 2}, Equals 1/3 * 1/3: {(onethird ^ 2) == (onethird * onethird)}");
 //*/

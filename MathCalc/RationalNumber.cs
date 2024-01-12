@@ -42,6 +42,9 @@ public class RationalNumber
         Simplify();
     }
 
+    private RationalNumber(BigInteger numerator, BigInteger denominator, decimal sign)
+        : this(numerator, denominator, sign < 0) { }
+
     public RationalNumber(int numerator, int denominator = 1)
     {
         this.Numerator = Math.Abs(numerator);
@@ -331,6 +334,11 @@ public class RationalNumber
     {
         return number / new RationalNumber(other);
     }
+
+    public static RationalNumber operator ^(RationalNumber number, int exponent)
+    {
+        return new RationalNumber(BigInteger.Pow(number.Numerator, exponent), BigInteger.Pow(number.Denominator, exponent), (int) Math.Pow(number.Sign, exponent));
+    }
     
     public static bool operator >(RationalNumber number, decimal other)
     {
@@ -507,8 +515,8 @@ public class RationalNumber
                 if (seenRemainders.TryGetValue(remainder, out int pos))
                 {
                     // Insert brackets to indicate repeating decimals
-                    result.Insert(pos, "(");
-                    result.Append(")");
+                    result.Insert(pos, "[");
+                    result.Append("]");
                     break;
                 }
 
