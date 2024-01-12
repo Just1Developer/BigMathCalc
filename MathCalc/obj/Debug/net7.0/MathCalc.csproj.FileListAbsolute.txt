@@ -1,0 +1,15 @@
+/Users/windfury/RiderProjects/MathCalc/MathCalc/bin/Debug/net7.0/MathCalc
+/Users/windfury/RiderProjects/MathCalc/MathCalc/bin/Debug/net7.0/MathCalc.deps.json
+/Users/windfury/RiderProjects/MathCalc/MathCalc/bin/Debug/net7.0/MathCalc.runtimeconfig.json
+/Users/windfury/RiderProjects/MathCalc/MathCalc/bin/Debug/net7.0/MathCalc.dll
+/Users/windfury/RiderProjects/MathCalc/MathCalc/bin/Debug/net7.0/MathCalc.pdb
+/Users/windfury/RiderProjects/MathCalc/MathCalc/obj/Debug/net7.0/MathCalc.csproj.AssemblyReference.cache
+/Users/windfury/RiderProjects/MathCalc/MathCalc/obj/Debug/net7.0/MathCalc.GeneratedMSBuildEditorConfig.editorconfig
+/Users/windfury/RiderProjects/MathCalc/MathCalc/obj/Debug/net7.0/MathCalc.AssemblyInfoInputs.cache
+/Users/windfury/RiderProjects/MathCalc/MathCalc/obj/Debug/net7.0/MathCalc.AssemblyInfo.cs
+/Users/windfury/RiderProjects/MathCalc/MathCalc/obj/Debug/net7.0/MathCalc.csproj.CoreCompileInputs.cache
+/Users/windfury/RiderProjects/MathCalc/MathCalc/obj/Debug/net7.0/MathCalc.dll
+/Users/windfury/RiderProjects/MathCalc/MathCalc/obj/Debug/net7.0/refint/MathCalc.dll
+/Users/windfury/RiderProjects/MathCalc/MathCalc/obj/Debug/net7.0/MathCalc.pdb
+/Users/windfury/RiderProjects/MathCalc/MathCalc/obj/Debug/net7.0/MathCalc.genruntimeconfig.cache
+/Users/windfury/RiderProjects/MathCalc/MathCalc/obj/Debug/net7.0/ref/MathCalc.dll
