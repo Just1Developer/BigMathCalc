@@ -3,6 +3,9 @@ using System.Text;
 
 namespace ConsoleApp1;
 
+/// <summary>
+/// This class is outdated. Please use <see cref="RationalNumber"/>.
+/// </summary>
 public class LosslessDecimal
 {
     private BigInteger mantisse;

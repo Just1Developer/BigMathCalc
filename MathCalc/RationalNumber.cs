@@ -3,11 +3,14 @@ using System.Text;
 
 namespace ConsoleApp1;
 
+/// <summary>
+/// Very neat class for rational numbers. Does not round to precision. Has no limit. Might use up some space though.
+/// </summary>
 public class RationalNumber
 {
-    private BigInteger Numerator;      // Zähler
+    public BigInteger Numerator { get; set; }      // Zähler
     private BigInteger _denominator;
-    private BigInteger Denominator     // Nenner
+    public BigInteger Denominator     // Nenner
     {
         get => _denominator;
         set
@@ -17,7 +20,7 @@ public class RationalNumber
             _denominator = value;
         }
     }
-    private bool IsNegative;
+    public bool IsNegative { get; private set; }
     
     public int Sign
     {
